@@ -1,0 +1,27 @@
+{
+  "name": "@vituity/eslint-config-ts",
+  "version": "0.10.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Vituity",
+  "files": [
+      "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@vituity/eslint-config-basic": "^0.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
