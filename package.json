@@ -1,0 +1,16 @@
+{
+  "name": "@vituity/eslint-config-monorepo",
+  "version": "0.10.0",
+  "license": "MIT",
+  "author": "Vituity",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js,.json,.vue --fix ."
+  },
+  "devDependencies": {
+    "@vituity/eslint-config": "*",
+    "eslint": "^8.0.1",
+    "typescript": "^4.4.4"
+  }
+}
